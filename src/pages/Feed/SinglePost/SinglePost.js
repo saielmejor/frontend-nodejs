@@ -44,7 +44,7 @@ class SinglePost extends Component {
       <section className="single-post">
         <h1>{this.state.title}</h1>
         <h2>
-          Created by {this.state.author} on {this.state.date}
+          Created by '{this.state.creator}' on {this.state.date}
         </h2>
         <div className="single-post__image">
           <Image contain imageUrl={this.state.image} />
